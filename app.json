@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": false,
     "scheme": "contract-reminder",
     "splash": {
       "image": "./assets/splash.png",
@@ -32,13 +33,7 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-notifications",
-        {
-          "sounds": []
-        }
-      ]
+      "expo-router"
     ]
   }
 }
